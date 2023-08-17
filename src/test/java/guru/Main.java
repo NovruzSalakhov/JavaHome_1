@@ -3,7 +3,7 @@ package guru;
 public class Main {
     public static void main(String[] args) {
 
-// Математические операции
+
 
         int a = 10;
         int b = 20;
@@ -28,12 +28,12 @@ public class Main {
         System.out.println("d++   = " + (d++));
         System.out.println("++d   = " + (++d));
 
-        // Переполнение
+
         System.out.println("\nПримеры на переполнение:");
         System.out.println("Результат переполнения byte: " + ((byte) (e + f)));
         System.out.println("Результат переполнения short: " + ((short) (g + h)));
 
-        // Вычисление комбинаций типов данных
+
         System.out.println("\nВычисление комбинаций int и double:");
         System.out.println("d + dbl = " + (d + dbl));
         System.out.println("d - dbl = " + (d - dbl));
@@ -41,7 +41,7 @@ public class Main {
         System.out.println("d / dbl = " + (d / dbl));
         System.out.println("d % dbl = " + (d % dbl));
 
-// Логические операции
+
 
         boolean
                 aa = true,
